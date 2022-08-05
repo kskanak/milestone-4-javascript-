@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first js console log</title>
+  </head>
+  <body>
+    <button
+      type="button"
+      onclick='document.getElementById("demo").innerHTML="hi there!"'
+    >
+      click here
+    </button>
+
+    <p id="demo">change in hre</p>
+
+    <button
+      type="button"
+      onclick='document.getElementById("demo").innerHTML="hello there!"'
+    >
+      click here
+    </button>
+    <br />
+
+    <!-- getElementById can src of a image -->
+    <button
+      type="button"
+      onclick='document.getElementById("bulb").src="/pic_bulbon.gif"'
+    >
+      turn on
+    </button>
+    <img id="bulb" src="/pic_bulboff.gif" alt="" />
+    <button
+      type="button"
+      onclick='document.getElementById("bulb").src="/pic_bulboff.gif"'
+    >
+      turn off
+    </button>
+    <br /><br />
+    <!-- getElementById can change the style off css -->
+    <p id="style">style change</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('style').style.fontSize='24px'"
+    >
+      change font size
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('style').style.color='red'"
+    >
+      change color
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('style').style.fontWeight='800'"
+    >
+      change font weight
+    </button>
+  </body>
+</html>
