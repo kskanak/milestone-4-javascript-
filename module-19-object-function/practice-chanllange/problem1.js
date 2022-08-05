@@ -1,14 +1,5 @@
-// for (i = 1; i <= 10; i++) {
-//   var multi = [i] * 13;
-//   console.log(multi);
-// }
-
-var number = 15;
-function namta(number) {
-  for (i = 1; i <= 10; i++) {
-    var multi = [i] * number;
-    console.log(multi);
-  }
+let number = 10;
+for (let i = 1; i <= 10; i++) {
+  let multiplication = i * number;
+  console.log(multiplication);
 }
-
-namta(number);

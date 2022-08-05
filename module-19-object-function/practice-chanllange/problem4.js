@@ -1,12 +1,11 @@
-var pizza = {
-  topping: ["cheese", "souce", "pepparoni"],
-  crust: "deep dish",
-  serves: 2,
-};
+function fullName(firstName, space, lastName) {
+  let completeName = firstName + space + lastName;
+  return completeName;
+}
 
-var allProperty = Object.keys(pizza);
-var allvalues = Object.values(pizza);
-var indexpepaa = pizza.topping.indexOf("souce");
-pizza.topping[1] = "mango";
-var slicepepparoni = pizza.topping.slice(2);
-console.log(slicepepparoni);
+let fName = "ks";
+let space = " ";
+let lName = "kanak";
+
+let goodName = fullName(fName, space, lName);
+console.log(goodName);

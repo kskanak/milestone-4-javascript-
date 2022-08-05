@@ -1,8 +1,8 @@
-var number = 4;
-
-function multiplication(number) {
-  var multi = number * number;
-  return multi;
+var number = 10;
+function square(number) {
+  let result = number * number;
+  return result;
 }
 
-console.log(multiplication(number));
+let squareOfNumber = square(number);
+console.log(squareOfNumber);
