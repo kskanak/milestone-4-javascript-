@@ -5,10 +5,9 @@ function wordReverse(givenText) {
     const index = i;
     const element = splitword[i];
     reversearray.push(element);
-    console.log(index);
   }
   const result = reversearray.join(" ");
-  console.log(result);
+  return result;
 }
 
 let story = "all is well";
