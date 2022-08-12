@@ -17,7 +17,7 @@ console.log(maxNumber);
 
 //  function of min number
 
-function findMaxNumber(name1, name2, name3) {
+function findMinNumber(name1, name2, name3) {
   if (name1 < name2 && name1 < name3) {
     return "Number 1 is min";
   } else if (name2 < name3 && name2 < name1) {
@@ -27,5 +27,5 @@ function findMaxNumber(name1, name2, name3) {
   }
 }
 
-let minNumber = findMaxNumber(number1, number2, number3);
+let minNumber = findMinNumber(number1, number2, number3);
 console.log(minNumber);

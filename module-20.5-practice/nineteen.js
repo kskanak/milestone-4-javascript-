@@ -2,13 +2,13 @@
 
 function leapYear(givenYear) {
   if ((givenYear % 4 === 0 && givenYear % 100 !== 0) || givenYear % 400 === 0) {
-    return "True, its leap year";
+    return "true";
   } else {
-    return "False, its not leap year";
+    return "false";
   }
 }
 
-let year = 2012;
+let year = 2022;
 
 let check = leapYear(year);
 console.log(check);

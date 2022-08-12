@@ -1,10 +1,13 @@
 // একটা ফাংশন লিখবা যেটা ১৩ এর নামতা (multiplication table) আউটপুট হিসেবে দেখাবে।
 
-function multiplication(givenNumber) {
-  for (let i = 1; i <= 10; i++) {
-    const results = i * givenNumber;
-    console.log(results);
+function findMultiplication(givenName) {
+  for (i = 1; i <= 10; i++) {
+    let number = i;
+    let result = number * givenName;
+    console.log(result);
   }
 }
 
-multiplication(13);
+let number = 10;
+
+let multiplication = findMultiplication(number);

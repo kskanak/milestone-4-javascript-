@@ -14,8 +14,8 @@ function average(arr) {
     const numbers = arr[i];
     sum += numbers;
   }
-  let averageNumbers = sum / arrLength;
-  return averageNumbers;
+  const average = sum / arrLength;
+  return [sum, average];
 }
 
 let arr = [12, 34, 43, 343, 343, 234, 34];

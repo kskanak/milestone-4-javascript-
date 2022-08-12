@@ -35,7 +35,6 @@ for (let i = 0; i < pizzaProperty.length; i++) {
   const allValues = pizza[allProperties];
   console.log(allProperties, allValues);
 }
-
 let slice = pizza.toppings[2];
 console.log(slice);
 let indexpep = pizza.toppings.indexOf("pepparoni");

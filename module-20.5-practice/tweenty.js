@@ -6,17 +6,14 @@
 let array = [2023, 2024, 2025, 2028, 2030];
 
 function toLeapYear(givenArray) {
-  let leapYearArray = [];
+  let leapYears = [];
   for (let i = 0; i < givenArray.length; i++) {
-    const arrayNumbers = givenArray[i];
-    if (
-      (arrayNumbers % 4 === 0 && arrayNumbers % 100 !== 0) ||
-      arrayNumbers % 400 === 0
-    ) {
-      leapYearArray.push(arrayNumbers);
+    const allYear = givenArray[i];
+    if ((allYear % 4 === 0 && allYear % 100 !== 0) || allYear % 400 === 0) {
+      leapYears.push(allYear);
     }
   }
-  return leapYearArray;
+  return leapYears;
 }
 
 let arrayOfLeapYear = toLeapYear(array);

@@ -1,9 +1,8 @@
-function fibonacchi(arr) {
-  for (let i = 2; i <= 15; i++) {
-    fiboarray[i] = fiboarray[i - 1] + fiboarray[i - 2];
+function findFibonacchi(array) {
+  for (i = 2; i <= 10; i++) {
+    array[i] = array[i - 1] + array[i - 2];
+    console.log(array);
   }
-  console.log(fiboarray);
 }
-
-let fiboarray = [0, 1];
-fibonacchi(fiboarray);
+let fiboArray = [0, 1];
+let fibonacchi = findFibonacchi(fiboArray);
